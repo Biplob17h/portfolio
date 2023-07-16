@@ -1,0 +1,225 @@
+.cuNavbar {
+    opacity: .04;
+    transition: .5s;
+    z-index: 20;
+}
+
+.cuNavbar:hover {
+    opacity: 70;
+    transition: .5s;
+}
+
+
+.cusimg {
+    background-image: url(./../assats//blackmoon.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+.scrool {
+    transition: .5s;
+}
+
+.cubtn1 {
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.cubtn1:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.cubtn3 {
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 10px;
+    display: block;
+}
+
+.cubtn3:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.cubtn4 {
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 7px;
+    display: block;
+}
+
+.cubtn4:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.cubtn2 {
+    background-image: linear-gradient(to right, #0cebeb 0%, #20e3b2 51%, #0cebeb 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 7px;
+    display: block;
+}
+
+.cubtn2:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+.cusBoxImg:hover {
+    box-shadow: 0 0 11px #fff;
+}
+
+.cuBgCard1 {
+    background-image: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+
+}
+
+.cuBgCard1:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+
+}
+
+.cuBgCard2 {
+    background-image: linear-gradient(to right, #2c3e50 0%, #3498db 51%, #2c3e50 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+
+}
+
+.cuBgCard2:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    box-shadow: 0 0 20px #eee;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.cuBgCard3 {
+    background-image: linear-gradient(to right, #B993D6 0%, #8CA6DB 51%, #B993D6 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+
+    border-radius: 10px;
+    display: block;
+
+}
+
+.cuBgCard3:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    box-shadow: 0 0 20px #eee;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.cubor1 {
+
+    box-shadow: 0 0 1px 0 #c9bebe;
+}
+
+.cubor1:hover {
+    box-shadow: 1px 4px 9px 4px #584f4f;
+    transition: .5s;
+}
+
+.cusBoxImg {
+    transition: box-shadow .3s;
+    border-radius: 10px;
+    border: 1px solid #a7a6a6;
+    background: #888585;
+    float: left;
+
+}
+
+@media only screen and (max-width: 400px) {
+    .cusBoxImg {
+        transition: 0;
+        border-radius: 0;
+        border: 0;
+        background: transparent;
+        float: none;
+
+    }
+
+    .cusBoxImg:hover {
+        box-shadow: 0;
+    }
+
+    .cuBgCard1 {
+        background-image: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%);
+        margin-left: 0;
+    }
+
+    .cuBgCard2 {
+        background-image: linear-gradient(to right, #2c3e50 0%, #3498db 51%, #2c3e50 100%);
+        margin-left: 0;
+    }
+
+    .cuBgCard3 {
+        background-image: linear-gradient(to right, #B993D6 0%, #8CA6DB 51%, #B993D6 100%);
+        margin-left: 0;
+    }
+}
