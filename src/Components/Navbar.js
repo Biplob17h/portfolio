@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className="relative hidden max-w-7xl md:block">
         <div
           className={`fixed w-full max-w-7xl top-0 pr-10  h-12  bg-[#7d37da] text-white font-semibold md:pr-0  ${
-            top ? "opacity-70" : "cuNavbar"
+            top ? "opacity-80" : "cuNavbar"
           }`}>
           <div className="pt-[10px] hidden md:flex md:justify-between md:pr-10">
             <img
