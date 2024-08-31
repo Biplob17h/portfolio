@@ -11,6 +11,15 @@ const projects = [
   },
   {
     id: "2",
+    name: "S.U.T.S.",
+    img: "https://i.postimg.cc/sxm3vkXV/suts.png",
+    details: "Welcome to your dream University",
+    pdf: "https://drive.google.com/file/d/1pwKcg5NYmYSGsEJlzCd6AL9oHUNj9jtb/view?usp=sharing",
+    live: "https://suts-fbb0c.web.app/",
+    git: "https://github.com/Biplob17h/s.u.t.s._client",
+  },
+  {
+    id: "3",
     name: "FoodEx",
     img: "https://i.postimg.cc/ZYxsdGcK/foodex.png",
     details: "Order your food online and get home delivery.",
